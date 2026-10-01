@@ -4,7 +4,7 @@ namespace Arv;
 
 public class Chihuahua : Dog
 {
-    public bool IsCold { get; set; }
+    public bool IsCold { get; set; } = false;
 
     public Chihuahua(string name, int age, double weight, string color, bool isAlive, string breed, bool isCold) : base(name, age, weight, color, isAlive, breed)
     {

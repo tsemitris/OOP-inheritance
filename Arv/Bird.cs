@@ -4,7 +4,7 @@ namespace Arv;
 
 public class Bird : Animal
 {
-    public bool IsMigratory { get; set; }
+    public bool IsMigratory { get; set; } = false;
 
     public Bird(string name, int age, double weight, string color, bool isAlive, bool isMigratory) : base(name, age, weight, color, isAlive)
     {
